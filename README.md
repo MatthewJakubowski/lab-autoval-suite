@@ -12,9 +12,9 @@ In high-throughput diagnostic laboratory networks processing >100,000 orders/mon
 
 **LabAutoVal Suite** provides a transparent, deterministic rule-cascade engine designed to safely autovalidate normal diagnostic samples while flagging critical anomalies and preanalytical interferences (HIL) for human review.
 
-### 🌐 Live Interactive Demo
-Try the interactive simulator directly in your browser:  
-🔗 **[Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/matthewjakubowski/lab-autoval-suite)**
+### 🌐 Live Interactive Demo & Executive Brief
+* 🚀 **Interactive Simulator:** [Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/matthewjakubowski/lab-autoval-suite)
+* 📄 **Executive Summary (PL/EN):** [Download LabAutoVal_Executive_Summary.pdf](./LabAutoVal_Executive_Summary.pdf)
 
 ---
 
@@ -54,7 +54,9 @@ Try the interactive simulator directly in your browser:
 ├── engine.py                  # Core deterministic decision engine & Monte Carlo simulator
 ├── test_engine.py             # Pytest test suite for rule validation
 ├── lis_batch_evaluator.py     # LIS CSV batch processing & ROI evaluator
+├── LabAutoVal_Executive_Summary.pdf # One-page bi-lingual executive brief
 └── README.md                  # Project documentation
+
 ```
 
 ## 🚀 Getting Started
